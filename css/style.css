@@ -3,6 +3,12 @@
   background-blend-mode: darken;
 }
 
+.square {
+  object-fit: cover;
+  width:400px !important;
+  height:400px !important;
+}
+
 html {
   overflow-x: hidden;
 }
