@@ -29,7 +29,6 @@ export default {
         'statics/galery/gericht_goidudu.jpg',
         'statics/galery/gericht_goixoai.jpg',
         'statics/galery/gericht_phobo.jpg',
-        'statics/galery/gericht_phocari.jpg',
         'statics/galery/gericht_sommerrollen.jpg'
       ]
     }
