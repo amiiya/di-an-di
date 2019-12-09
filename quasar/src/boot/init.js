@@ -1,3 +1,4 @@
-var host = "amiiya.github.io";
-if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https"
+var host = 'amiiya.github.io'
+if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+  window.location.protocol = 'https'
+}
