@@ -5,7 +5,7 @@
     <Galery />
     <q-separator inset spaced />
     <Location />
-    <q-separator inset spaced />
+    <Contact />
   </div>
 </template>
 
@@ -13,13 +13,15 @@
 import About from '../components/About'
 import Galery from '../components/Galery'
 import Location from '../components/Location'
+import Contact from '../components/Contact'
 
 export default {
   name: 'PageIndex',
   components: {
     Galery,
     About,
-    Location
+    Location,
+    Contact
   }
 }
 </script>

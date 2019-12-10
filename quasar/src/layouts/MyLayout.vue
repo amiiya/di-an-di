@@ -77,6 +77,9 @@ export default {
   },
   components: {
     Parallax
+  },
+  mounted () {
+    this.$q.dark.set(true)
   }
 }
 </script>

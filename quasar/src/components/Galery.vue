@@ -1,14 +1,17 @@
 <template>
   <div class="q-pa-md">
-    <q-carousel
-      swipeable
-      animated
-      v-model="slide"
-      thumbnails
-      infinite
-    >
-      <q-carousel-slide v-for="(image, index) in images" :name="index" :img-src="image" :key="index" />
-    </q-carousel>
+    <div :class="{ 'carousel-width': $q.screen.gt.sm }">
+      <q-carousel
+        swipeable
+        animated
+        v-model="slide"
+        autoplay
+        thumbnails
+        infinite
+      >
+        <q-carousel-slide v-for="(image, index) in images" :name="index" :img-src="image" :key="index" />
+      </q-carousel>
+    </div>
   </div>
 </template>
 
@@ -35,3 +38,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.carousel-width {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+</style>

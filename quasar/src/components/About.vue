@@ -3,7 +3,7 @@
     <div class="row justify-center">
         <img src="statics/svg/EinPaarWorte.svg" class="few-words" />
     </div>
-    <div class="row justify-center text-uppercase text-h5 q-pb-md">
+    <div class="row justify-center text-uppercase text-h5 text-grey q-pb-md">
         über uns
     </div>
     <div class="row justify-center">

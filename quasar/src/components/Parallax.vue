@@ -1,5 +1,5 @@
 <template>
- <q-parallax :height="parallaxHeight" :speed="0.6">
+ <q-parallax :height="$q.screen.height" :speed="0.6">
       <template v-slot:media>
         <img src="statics/map_hq.jpg" class="darken">
       </template>
@@ -34,16 +34,8 @@
 export default {
   data () {
     return {
-      right: false,
-      parallaxHeight: null
+      right: false
     }
-  },
-  mounted () {
-    this.$q.dark.set(true)
-    this.parallaxHeight = window.innerHeight
-  },
-  update () {
-    this.parallaxHeight = window.innerHeight
   }
 }
 </script>
