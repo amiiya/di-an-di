@@ -1,5 +1,5 @@
 <template>
- <q-parallax :height="$q.screen.height" :speed="0.6">
+ <q-parallax :height="$q.screen.height <  600 ? 600 : $q.screen.height" :speed="0.6">
       <template v-slot:media>
         <img src="statics/map_hq.jpg" class="darken">
       </template>
