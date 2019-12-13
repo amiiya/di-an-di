@@ -13,7 +13,10 @@
             right: 0
           }"
         >
-          <img src="statics/logo_nodeco.png" :width="$q.screen.lt.sm ? '200px' : '300px'">
+
+          <router-link to ="/" style="all: unset">
+            <img src="statics/logo_nodeco.png" :width="$q.screen.lt.sm ? '200px' : '300px'">
+          </router-link>
           <div class="text-h6 text-grey q-py-md">
             Bachstraße 145, 22083 Hamburg
           </div>
