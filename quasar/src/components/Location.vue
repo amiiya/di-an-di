@@ -1,5 +1,5 @@
 <template>
-  <div class="row justify-around q-gutter-sm q-pa-lg">
+  <div class="row justify-around items-center q-gutter-sm q-pa-lg">
     <q-intersection >
       <div class="row justify-center q-pb-md">
         <img src="statics/svg/Anfahrt.svg" style="width: 200px" />
@@ -10,11 +10,11 @@
       </div>
     </q-intersection>
     <q-intersection>
-    <div class="text-left" style="max-width: 500px">
-      <q-icon name="fas fa-angle-right" /> Ab Hauptbahnhof aus <span class="text-primary text-uppercase">Bus 17 (U Berne)</span> oder <span class="text-primary text-uppercase">Bus 6 (U Borgweg)</span> bis Mühlenkamp/ Hofweg, <q-icon name="fas fa-walking"/> 8 Min. Fußweg<br>
-      <q-icon name="fas fa-angle-right" /> Ab Barmbek aus <span class="text-primary text-uppercase">Bus 172 & 173 (Mundsburger Brücke)</span> bis Herderstraße, <q-icon name="fas fa-walking"/> 2 Min. Fußweg<br>
-      <q-icon name="fas fa-angle-right" /> Ab U Mundsburg <span class="text-primary text-uppercase">Bus 172 & 173 (Richtung Bramfelder Dorfplatz)</span> bis Herderstraße, <q-icon name="fas fa-walking"/> 2 Min. Fußweg<br>
-      <q-icon name="fas fa-angle-right" /> Ab U Mundsburg <span class="text-primary text-uppercase">Bus 25 (Richtung Bf. Altona)</span> bis Hebbelstraße, <q-icon name="fas fa-walking"/> 8 Min. Fußweg
+    <div class="text-left">
+      <q-icon name="fas fa-angle-right" /> Ab Hauptbahnhof: <span class="text-primary text-uppercase">Bus 17 (U Berne)</span> oder <span class="text-primary text-uppercase">Bus 6 (U Borgweg)</span> bis Mühlenkamp/ Hofweg, <q-icon name="fas fa-walking"/> 8 Min. Fußweg<br>
+      <q-icon name="fas fa-angle-right" /> Ab Barmbek: <span class="text-primary text-uppercase">Bus 172 & 173 (Mundsburger Brücke)</span> bis Herderstraße, <q-icon name="fas fa-walking"/> 2 Min. Fußweg<br>
+      <q-icon name="fas fa-angle-right" /> Ab U Mundsburg: <span class="text-primary text-uppercase">Bus 172 & 173 (Richtung Bramfelder Dorfplatz)</span> bis Herderstraße, <q-icon name="fas fa-walking"/> 2 Min. Fußweg<br>
+      <q-icon name="fas fa-angle-right" /> Ab U Mundsburg: <span class="text-primary text-uppercase">Bus 25 (Richtung Bf. Altona)</span> bis Hebbelstraße, <q-icon name="fas fa-walking"/> 8 Min. Fußweg
     </div>
     </q-intersection>
     <div class="full-width q-pt-lg" style="height: 400px;">

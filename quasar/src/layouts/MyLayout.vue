@@ -1,16 +1,17 @@
 <template>
-  <q-layout view="hHh lpR fFf">
-
+  <q-layout view="hHh lpR fff">
     <q-header class="bg-black text-white title-text">
       <q-toolbar>
         <q-toolbar-title>
-          ĐI ĂN ĐI
+          <router-link to ="/" style="all: unset">ĐI ĂN ĐI</router-link>
         </q-toolbar-title>
+        <q-btn color="blue-3" flat icon="fab fa-facebook-f" href="https://www.facebook.com/diandi.hh/" type="a" target="_blank" />
+        <q-btn color="pink-3" flat icon="fab fa-instagram" href="https://www.instagram.com/diandi.hh/" type="a" target="_blank" />
         <q-btn dense flat round icon="menu" @click="right = !right" />
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="right" side="right" bordered>
+    <q-drawer v-model="right" side="right" bordered overlay>
       <q-list>
         <q-item-label header>Navigation</q-item-label>
         <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
@@ -47,21 +48,24 @@
     <q-separator color="primary" style="height:5px"/>
 
     <img src="statics/deco_top.png" width="300px">
-    <q-page-container style="margin-top: -100px;">
-      <router-view />
+    <q-page-container>
+      <router-view style="margin-top: -100px;"/>
+      <div class="row justify-end">
+        <img src="statics/deco_bottom.png" width="300px">
+      </div>
     </q-page-container>
 
-    <img src="statics/deco_bottom.png" class="float-right" width="300px">
-    <!-- <q-footer elevated class="bg-grey-8 text-white title-text justify-between">
+    <q-footer elevated class="text-white title-text justify-between">
       <q-toolbar>
         <q-toolbar-title>
           <q-icon name="copyright" /> Di An Di {{ new Date().getFullYear() }}
+          - Alle Rechte vorbehalten
         </q-toolbar-title>
-        <q-toolbar-title>
-          All rights reserved
-        </q-toolbar-title>
+        <q-tabs v-model="tab" shrink stretch>
+          <q-route-tab name="impressum" to="/impressum" exact label="Impressum" />
+        </q-tabs>
       </q-toolbar>
-    </q-footer> -->
+    </q-footer>
 
   </q-layout>
 </template>
@@ -72,7 +76,8 @@ import Parallax from '../components/Parallax'
 export default {
   data () {
     return {
-      right: false
+      right: false,
+      tab: null
     }
   },
   components: {
