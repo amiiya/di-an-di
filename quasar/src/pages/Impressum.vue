@@ -224,8 +224,12 @@ export default {
     color: lighten($primary, 30);
   }
 
+  p {
+    word-break: break-word;
+  }
+
   a {
     color: $primary;
-    word-wrap: normal;
+    word-break: break-word;
   }
 </style>
