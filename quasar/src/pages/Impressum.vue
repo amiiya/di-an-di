@@ -156,7 +156,7 @@
               <strong>Ablaufzeit:</strong> nach 6 Monaten</li>
               <li>
               <strong>Verwendung:</strong> NID wird von Google verwendet, um Werbeanzeigen an Ihre Google-Suche anzupassen. Mit Hilfe des Cookies „erinnert“ sich Google an Ihre am häufigsten eingegebenen Suchanfragen oder Ihre frühere Interaktion mit Anzeigen. So bekommen Sie immer maßgeschneiderte Werbeanzeigen. Das Cookie enthält eine einzigartige ID, die Google benutzt, persönliche Einstellungen des Users für Werbezwecke zu sammeln.</li>
-              <li class="break-all">
+              <li style="word-break: break-all;">
               <strong>Beispielwert:</strong> 188=h26c1Ktha7fCQTx8rXgLyATyITJ321135436</li>
               </ul>
               <p>
@@ -231,9 +231,5 @@ export default {
   a {
     color: $primary;
     word-break: break-word;
-  }
-  
-  .break-all {
-    word-break: break-all;
   }
 </style>
