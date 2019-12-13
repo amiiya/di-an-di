@@ -226,5 +226,6 @@ export default {
 
   a {
     color: $primary;
+    word-wrap: normal;
   }
 </style>
