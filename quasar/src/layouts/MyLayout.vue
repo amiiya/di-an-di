@@ -7,14 +7,14 @@
         </q-toolbar-title>
         <q-btn color="blue-3" flat icon="fab fa-facebook-f" href="https://www.facebook.com/diandi.hh/" type="a" target="_blank" />
         <q-btn color="pink-3" flat icon="fab fa-instagram" href="https://www.instagram.com/diandi.hh/" type="a" target="_blank" />
-        <q-btn dense flat round icon="menu" @click="right = !right" />
+        <!-- <q-btn dense flat round icon="menu" @click="right = !right" /> -->
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="right" side="right" bordered overlay>
+    <!-- <q-drawer v-model="right" side="right" bordered overlay>
       <q-list>
         <q-item-label header>Navigation</q-item-label>
-        <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
+        <q-item clickable tag="a" target="_self" href="#galery">
           <q-item-section avatar>
             <q-icon name="school" />
           </q-item-section>
@@ -42,7 +42,7 @@
           </q-item-section>
         </q-item>
       </q-list>
-    </q-drawer>
+    </q-drawer> -->
 
     <Parallax />
     <q-separator color="primary" style="height:5px"/>
@@ -51,7 +51,7 @@
     <q-page-container>
       <router-view style="margin-top: -100px;"/>
       <div class="row justify-end">
-        <img src="statics/deco_bottom.png" width="300px">
+        <img src="statics/deco_bottom.png" width="300px" height="85.2px">
       </div>
     </q-page-container>
 
@@ -62,6 +62,7 @@
           - Alle Rechte vorbehalten
         </q-toolbar-title>
         <q-tabs v-model="tab" shrink stretch>
+          <q-route-tab name="startseite" to="/" exact label="Hauptseite" />
           <q-route-tab name="impressum" to="/impressum" exact label="Impressum" />
         </q-tabs>
       </q-toolbar>

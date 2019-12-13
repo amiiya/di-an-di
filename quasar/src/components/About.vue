@@ -1,7 +1,7 @@
 <template>
  <div class="q-pa-md ">
     <div class="row justify-center q-gutter-md">
-        <q-intersection once transition="scale">
+        <q-intersection>
             <img src="statics/svg/EinPaarWorte.svg" style="max-width: 200px;"/>
             <div class="row justify-center text-uppercase text-h5 text-grey q-pb-md">
                 über uns
@@ -19,8 +19,8 @@
                 <img src="statics/svg/IhrDiAnDiTeam.svg" style="max-width: 300px" />
             </div>
         </q-intersection>
-         <q-intersection>
-            <div class="videocontent">
+         <q-intersection class="row items-center">
+            <div :class="$q.screen.gt.sm ? 'videocontent-normal' : 'videocontent-small'">
                 <video-player
                     class="video-js vjs-big-play-centered vjs-fill"
                     :options="playerOptions"
@@ -59,9 +59,14 @@ export default {
 </script>
 
 <style>
-.videocontent {
+.videocontent-normal {
     width: 500px;
 }
+
+.videocontent-small {
+    width: 250px;
+}
+
 .video-js {
     background-color: transparent;
 }

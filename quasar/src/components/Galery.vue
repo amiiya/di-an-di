@@ -1,5 +1,6 @@
 <template>
-  <div class="q-pa-md">
+  <div class="q-pa-md" id="galery">
+    <!-- <img src="statics/svg/Fotogalerie.svg" style="max-width: 200px" /> -->
     <div :class="{ 'carousel-width': $q.screen.gt.sm }">
       <q-carousel
         swipeable

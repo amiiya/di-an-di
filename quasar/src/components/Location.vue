@@ -2,7 +2,7 @@
   <div class="row justify-around items-center q-gutter-sm q-pa-lg">
     <q-intersection >
       <div class="row justify-center q-pb-md">
-        <img src="statics/svg/Anfahrt.svg" style="width: 200px" />
+        <img src="statics/svg/Anfahrt.svg" style="width: 300px" />
       </div>
       <div class="row justify-center q-pt-md text-center">
         Bachstraße 145<br>
