@@ -1,9 +1,9 @@
 <template>
   <div class="q-pa-md text-center">
     <About />
-    <q-separator inset spaced />
+    <!-- <q-separator inset spaced /> -->
     <Galery />
-    <q-separator inset spaced />
+    <!-- <q-separator inset spaced /> -->
     <Location />
     <Contact />
   </div>

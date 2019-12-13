@@ -2,7 +2,7 @@
   <div class="row justify-around items-center q-gutter-sm q-pa-lg">
     <div >
       <div class="row justify-center q-pb-md">
-        <img src="statics/svg/Anfahrt.svg" style="width: 300px" />
+        <img src="statics/svg/Anfahrt.svg" style="width: 200px" />
       </div>
       <div class="row justify-center q-pt-md text-center">
         Bachstraße 145<br>
@@ -17,7 +17,7 @@
       <q-icon name="fas fa-angle-right" /> Ab U Mundsburg: <span class="text-primary text-uppercase">Bus 25 (Richtung Bf. Altona)</span> bis Hebbelstraße, <q-icon name="fas fa-walking"/> 8 Min. Fußweg
     </div>
     </div>
-    <div class="full-width q-pt-lg" style="height: 400px;">
+    <div class="full-width q-my-xl" style="height: 400px;">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4737.564417403448!2d10.018529353445082!3d53.579503440934104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ef09fc8fe4e4c83!2sDi%20An%20Di!5e0!3m2!1sde!2sde!4v1570782051149!5m2!1sde!2sde"
         width="100%" height="100%"

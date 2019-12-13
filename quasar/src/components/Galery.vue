@@ -1,19 +1,21 @@
 <template>
-  <div class="q-pa-md" id="galery">
-    <!-- <img src="statics/svg/Fotogalerie.svg" style="max-width: 200px" /> -->
-    <div :class="{ 'carousel-width': $q.screen.gt.sm }">
-      <q-carousel
-        swipeable
-        animated
-        v-model="slide"
-        autoplay
-        thumbnails
-        infinite
-      >
-        <q-carousel-slide v-for="(image, index) in images" :name="index" :img-src="image" :key="index" />
-      </q-carousel>
-    </div>
-  </div>
+  <q-card class="q-px-md q-my-xl">
+    <q-card-section>
+      <!-- <img src="statics/svg/Fotogalerie.svg" style="max-width: 200px" /> -->
+      <div :class="{ 'carousel-width': $q.screen.gt.sm }">
+        <q-carousel
+          swipeable
+          animated
+          v-model="slide"
+          autoplay
+          thumbnails
+          infinite
+        >
+          <q-carousel-slide v-for="(image, index) in images" :name="index" :img-src="image" :key="index" />
+        </q-carousel>
+      </div>
+    </q-card-section>
+  </q-card>
 </template>
 
 <script>
