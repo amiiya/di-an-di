@@ -1,7 +1,7 @@
 <template>
  <div class="q-pa-md ">
     <div class="row justify-center q-gutter-md">
-        <q-intersection>
+        <div>
             <img src="statics/svg/EinPaarWorte.svg" style="max-width: 200px;"/>
             <div class="row justify-center text-uppercase text-h5 text-grey q-pb-md">
                 über uns
@@ -18,8 +18,8 @@
                 </p>
                 <img src="statics/svg/IhrDiAnDiTeam.svg" style="max-width: 300px" />
             </div>
-        </q-intersection>
-         <q-intersection class="row items-center">
+        </div>
+         <div class="row items-center">
             <div :class="$q.screen.gt.sm ? 'videocontent-normal' : 'videocontent-small'">
                 <video-player
                     class="video-js vjs-big-play-centered vjs-fill"
@@ -27,7 +27,7 @@
                 >
                 </video-player>
             </div>
-        </q-intersection>
+        </div>
     </div>
  </div>
 </template>
