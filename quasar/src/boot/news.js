@@ -12,7 +12,7 @@ Notify.setDefaults({
 var untilDate = new Date(2020, 1, 2)
 if (new Date(untilDate.toDateString()) > new Date(new Date().toDateString())) {
   Notify.create(`Wir wünschen euch frohe Weihnachten und einen guten Rutsch ins neue Jahr! 
-  Wir folgenden Tagen haben wir abweichende Öffnungszeiten: 
+  An folgenden Tagen haben wir abweichende Öffnungszeiten: 
   24.12. GESCHLOSSEN | 
   25.12. 13 - 21 Uhr | 
   26.12. 13 - 21 Uhr | 
