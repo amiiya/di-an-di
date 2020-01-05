@@ -9,7 +9,8 @@ Notify.setDefaults({
   actions: [{ icon: 'close', color: 'white' }]
 })
 
-var untilDate = new Date(2020, 1, 2)
+// set date month -1 (january = 0)
+var untilDate = new Date(2020, 0, 2)
 if (new Date(untilDate.toDateString()) > new Date(new Date().toDateString())) {
   Notify.create(`Wir wünschen euch frohe Weihnachten und einen guten Rutsch ins neue Jahr! 
   An folgenden Tagen haben wir abweichende Öffnungszeiten: 
