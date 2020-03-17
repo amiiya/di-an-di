@@ -4,19 +4,14 @@ Notify.setDefaults({
   position: 'bottom',
   timeout: 1000000,
   color: 'red-10',
-  icon: 'fas fa-holly-berry',
+  icon: 'fas fa-notes-medical',
   multiLine: true,
   actions: [{ icon: 'close', color: 'white' }]
 })
 
 // set date month -1 (january = 0)
-var untilDate = new Date(2020, 0, 2)
+var untilDate = new Date(2020, 7, 2)
 if (new Date(untilDate.toDateString()) > new Date(new Date().toDateString())) {
-  Notify.create(`Wir wünschen euch frohe Weihnachten und einen guten Rutsch ins neue Jahr! 
-  An folgenden Tagen haben wir abweichende Öffnungszeiten: 
-  24.12. GESCHLOSSEN | 
-  25.12. 13 - 21 Uhr | 
-  26.12. 13 - 21 Uhr | 
-  31.12. 13 - 20.30 Uhr | 
-  01.01. 14 - 21 Uhr`)
+  Notify.create(`Aufgrund der Maßnahmen zur Eindämmung der Corona-Infektionen wurden die Öffnungszeiten der Restaurants beschränkt.
+  Wir werden bis auf unabsehbare Zeit abweichende Öffnungszeiten haben.`)
 }

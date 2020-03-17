@@ -1,5 +1,5 @@
 <template>
- <q-parallax :height="$q.screen.height <  600 ? 600 : $q.screen.height" :speed="0.6">
+ <q-parallax :height="$q.screen.height <  800 ? 800 : $q.screen.height" :speed="0.6">
       <template v-slot:media>
         <img src="statics/map_hq.jpg" class="darken">
       </template>
@@ -20,10 +20,17 @@
           <div class="text-h6 text-grey q-py-md">
             Bachstraße 145, 22083 Hamburg
           </div>
-          <div>Mo: GESCHLOSSEN</div>
-          <div>Di - Fr: 11.30 - 15.00 Uhr & 18.00 - 22.00 Uhr</div>
-          <div>Sa: 13.00 - 22.00 Uhr</div>
-          <div>So & Feiertage: 13.00 - 21.00 Uhr</div>
+            Vorübergehende Öffnungszeiten (COVID-19):
+          <div class="openingtimes">
+            <div>Mo: GESCHLOSSEN</div>
+            <div>Di - Fr: 11.30 - 15.00 Uhr</div>
+            <div>Sa: 13.00 - 18.00 Uhr</div>
+            <div>So & Feiertage: 13.00 - 18.00 Uhr</div>
+          </div>
+          <div class="q-pt-md">
+            Wir bieten unsere Gerichte auch zum Mitnehmen an, ruft uns einfach unter <a href="tel:04075684451" class="text-primary">040 75684451</a> an.<br>
+            Bleibt gesund! <q-icon name="fas fa-heart" color="primary" />
+          </div>
           <!-- <div class="q-py-md">
             Reservierungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden
           </div> -->
@@ -47,6 +54,11 @@ export default {
 </script>
 
 <style lang="scss">
+.openingtimes {
+  color: white;
+  font-weight: 1000;
+  letter-spacing: -1px;
+}
 .darken {
   opacity: 0.3;
 }
