@@ -23,13 +23,12 @@
             Vorübergehende Öffnungszeiten (COVID-19):
           <div class="openingtimes">
             <div>Mo: GESCHLOSSEN</div>
-            <div>Di - Fr: 11.30 - 15.00 Uhr</div>
-            <div>Sa: 13.00 - 18.00 Uhr</div>
-            <div>So & Feiertage: 13.00 - 18.00 Uhr</div>
+            <div>Di - Fr: GESCHLOSSEN</div>
+            <div>Sa: GESCHLOSSEN</div>
+            <div>So & Feiertage: GESCHLOSSEN</div>
           </div>
           <div class="q-pt-md">
-            Wir bieten unsere Gerichte auch zum Mitnehmen an, ruft uns einfach unter <a href="tel:04075684451" class="text-primary">040 75684451</a> an.<br>
-            Bleibt gesund! <q-icon name="fas fa-heart" color="primary" />
+            Bleibt gesund und bis bald! <q-icon name="fas fa-heart" color="primary" />
           </div>
           <!-- <div class="q-py-md">
             Reservierungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden

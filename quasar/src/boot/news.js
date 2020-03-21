@@ -12,6 +12,5 @@ Notify.setDefaults({
 // set date month -1 (january = 0)
 var untilDate = new Date(2020, 7, 2)
 if (new Date(untilDate.toDateString()) > new Date(new Date().toDateString())) {
-  Notify.create(`Aufgrund der Maßnahmen zur Eindämmung der Corona-Infektionen wurden die Öffnungszeiten der Restaurants beschränkt.
-  Wir werden bis auf unabsehbare Zeit abweichende Öffnungszeiten haben.`)
+  Notify.create(`Aufgrund der Maßnahmen zur Eindämmung der Corona-Infektionen müssen alle Restaurants für eine unbekannte Zeit lang schließen. Es fällt uns schwer, aber diese Maßnahme ist berechtigt und nötig. Bleibt gesund und bis bald!`)
 }
