@@ -1,5 +1,5 @@
 <template>
- <q-parallax :height="$q.screen.height <  800 ? 800 : $q.screen.height" :speed="0.6">
+ <q-parallax :height="$q.screen.height <  850 ? 850 : $q.screen.height" :speed="0.6">
       <template v-slot:media>
         <img src="statics/map_hq.jpg" class="darken">
       </template>
@@ -28,7 +28,7 @@
             <div>So & Feiertage: 12 - 20 Uhr</div>
           </div>
           <div class="q-pt-md max-width ">
-            Derzeit ausschließlich AUSSER HAUS Verkauf (Nur Abholung, kein Lieferservice). Gerne nehmen wir eure Bestellungen telefonisch entgegen <a href="tel:04075684451" class="text-primary">040 75684451</a>.
+            Wir sind wieder da! Dabei müssen wir die Abstandsregelung von 1,5m zwischen Tischen, Maskenpflicht und weitere Hygienemaßnahmen einhalten. Wir bitten daher um Reservierungen, um lange Wartezeiten zu vermeiden.
           </div>
           <!-- <div class="q-py-md">
             Reservierungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden
