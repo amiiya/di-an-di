@@ -23,12 +23,12 @@
             Vorübergehende Öffnungszeiten (COVID-19):
           <div class="openingtimes">
             <div>Mo: GESCHLOSSEN</div>
-            <div>Di - Fr: GESCHLOSSEN</div>
-            <div>Sa: GESCHLOSSEN</div>
-            <div>So & Feiertage: GESCHLOSSEN</div>
+            <div>Di - Fr: 12 - 20 Uhr</div>
+            <div>Sa: 12 - 20 Uhr</div>
+            <div>So & Feiertage: 12 - 20 Uhr</div>
           </div>
-          <div class="q-pt-md">
-            Bleibt gesund und bis bald! <q-icon name="fas fa-heart" color="primary" />
+          <div class="q-pt-md max-width ">
+            Derzeit ausschließlich AUSSER HAUS Verkauf (Nur Abholung, kein Lieferservice). Gerne nehmen wir eure Bestellungen telefonisch entgegen <a href="tel:04075684451" class="text-primary">040 75684451</a>.
           </div>
           <!-- <div class="q-py-md">
             Reservierungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden
@@ -66,5 +66,9 @@ export default {
   font-size: 1.00rem;
   font-weight: 500;
   line-height: 2rem;
+}
+
+.max-width {
+  max-width: 900px;
 }
 </style>
