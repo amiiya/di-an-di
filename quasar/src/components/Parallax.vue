@@ -24,8 +24,8 @@
           <div class="openingtimes">
             <div>Mo: GESCHLOSSEN</div>
             <div>Di - Fr: 12 - 20 Uhr</div>
-            <div>Sa: 12 - 20 Uhr</div>
-            <div>So & Feiertage: 12 - 20 Uhr</div>
+            <div>Sa: 13 - 20 Uhr</div>
+            <div>So & Feiertage: 13 - 20 Uhr</div>
           </div>
           <div class="q-pt-md max-width ">
             Wir sind wieder da! Dabei müssen wir die Abstandsregelung von 1,5m zwischen Tischen, Maskenpflicht und weitere Hygienemaßnahmen einhalten. Wir bitten daher um Reservierungen, um lange Wartezeiten zu vermeiden.
