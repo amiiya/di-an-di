@@ -23,9 +23,10 @@
             Vorübergehende Öffnungszeiten (COVID-19):
           <div class="openingtimes">
             <div>Mo: GESCHLOSSEN</div>
-            <div>Di - Fr: 12 - 20 Uhr</div>
-            <div>Sa: 13 - 20 Uhr</div>
-            <div>So & Feiertage: 13 - 20 Uhr</div>
+            <div>Di - Do: 12 - 21 Uhr</div>
+            <div>Fr: 12 - 22 Uhr</div>
+            <div>Sa: 13 - 22 Uhr</div>
+            <div>So & Feiertage: 13 - 21 Uhr</div>
           </div>
           <div class="q-pt-md max-width ">
             Wir sind wieder da! Dabei müssen wir die Abstandsregelung von 1,5m zwischen Tischen, Maskenpflicht und weitere Hygienemaßnahmen einhalten. Wir bitten daher um Reservierungen, um lange Wartezeiten zu vermeiden.
