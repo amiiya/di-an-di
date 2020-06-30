@@ -20,11 +20,9 @@
           <div class="text-h6 text-grey q-py-md">
             Bachstraße 145, 22083 Hamburg
           </div>
-            Vorübergehende Öffnungszeiten (COVID-19):
           <div class="openingtimes">
             <div>Mo: GESCHLOSSEN</div>
-            <div>Di - Do: 12 - 21 Uhr</div>
-            <div>Fr: 12 - 22 Uhr</div>
+            <div>Di - Do: 12 - 15 Uhr, 17:30 - 22 Uhr</div>
             <div>Sa: 13 - 22 Uhr</div>
             <div>So & Feiertage: 13 - 21 Uhr</div>
           </div>
