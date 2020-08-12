@@ -22,7 +22,7 @@
           </div>
           <div class="openingtimes">
             <div>Mo: GESCHLOSSEN</div>
-            <div>Di - Do: 12 - 15 Uhr, 17:30 - 22 Uhr</div>
+            <div>Di - Fr: 12 - 15 Uhr, 17:30 - 22 Uhr</div>
             <div>Sa: 13 - 22 Uhr</div>
             <div>So & Feiertage: 13 - 21 Uhr</div>
           </div>
