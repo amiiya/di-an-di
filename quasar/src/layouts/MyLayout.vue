@@ -3,7 +3,7 @@
     <q-header class="bg-black text-white title-text">
       <q-toolbar>
         <q-toolbar-title>
-          <router-link to ="/" style="all: unset">ĐI ĂN ĐI</router-link>
+          <router-link to ="/" style="all: unset; color: white;">ĐI ĂN ĐI</router-link>
         </q-toolbar-title>
         <q-btn color="blue-3" flat icon="fab fa-facebook-f" href="https://www.facebook.com/diandi.hh/" type="a" target="_blank" />
         <q-btn color="pink-3" flat icon="fab fa-instagram" href="https://www.instagram.com/diandi.hh/" type="a" target="_blank" />

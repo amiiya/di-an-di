@@ -11,7 +11,7 @@ Notify.setDefaults({
 })
 
 // set date month -1 (january = 0)
-var untilDate = new Date(2020, 8, 2)
+var untilDate = new Date(2021, 0, 2)
 if (new Date(untilDate.toDateString()) > new Date(new Date().toDateString())) {
-  Notify.create(`Unsere Öffnungszeiten sind wieder wie gewohnt. Wir freuen uns auf euren Besuch!`)
+  Notify.create(`Wir haben ab dem 03.11.2020 wie abweichende Öffnungszeiten! Bitte entnehmt die genauen Uhrzeiten zur Abholung oder Lieferung von dieser Website. Wir halten durch! Bleibt gesund! Euer Di An Di Team <3`)
 }
