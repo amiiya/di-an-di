@@ -24,8 +24,6 @@
             <div>Di - Fr: 12 - 15 Uhr, 17:30 - 22 Uhr</div>
             <div>Sa: 13 - 22 Uhr</div>
             <div>So & Feiertage: 13 - 21 Uhr</div> -->
-            <div><span class="q-pr-md">🎄</span>21.12.20 - 25.12.20: GESCHLOSSEN</div>
-            <div><span class="q-pr-md">🎆</span>31.12.20 - 01.01.21: GESCHLOSSEN</div>
             <div><br></div>
             <div>Di - Fr: 12 - 14:30 Uhr (Abholung), 17 - 21 Uhr (Abholung &amp; Lieferung)</div>
             <div>Sa - So: 13 - 17 Uhr (Abholung), 17 - 21 Uhr (Abholung &amp; Lieferung)</div>
