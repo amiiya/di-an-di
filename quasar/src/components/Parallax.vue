@@ -25,8 +25,9 @@
             <div>Sa: 13 - 22 Uhr</div>
             <div>So & Feiertage: 13 - 21 Uhr</div> -->
             <div><br></div>
-            <div>Di - Fr: 12 - 14:30 Uhr, 17 - 21 Uhr</div>
-            <div>Sa - So: 13 - 17 Uhr, 17 - 21 Uhr</div>
+            <div>Di - Fr: 12 - 14:30 Uhr, 17 - 22 Uhr</div>
+            <div>Sa: 13 - 22 Uhr</div>
+            <div>So: 13 - 21 Uhr</div>
           </div>
           <!-- <div class="q-pt-md max-width">
             Aufgrund der Maßnahmen zur Eindämmung der Corona-Infektion, werden wir ab Dienstag den 03.11.2020 nur noch außer Haus verkaufen.
