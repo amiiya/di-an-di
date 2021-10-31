@@ -80,7 +80,6 @@ export default {
 
 .openingtimes {
   color: white;
-  font-weight: 1000;
   letter-spacing: -1px;
   max-width: 500px;
 }
