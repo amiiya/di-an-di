@@ -14,17 +14,20 @@
         >
 
           <router-link to ="/" style="all: unset">
-            <img src="statics/logo_nodeco.png" :width="$q.screen.lt.sm ? '200px' : '300px'">
+            <img src="statics/logo_nodeco.png" :width="$q.screen.lt.sm ? '200px' : '250px'">
           </router-link>
           <div class="text-h6 text-grey q-py-md">
             Bachstraße 145, 22083 Hamburg
           </div>
           <div class="openingtimes">
-            <!-- <div>Mo: GESCHLOSSEN</div>
-            <div>Di - Fr: 12 - 15 Uhr, 17:30 - 22 Uhr</div>
-            <div>Sa: 13 - 22 Uhr</div>
-            <div>So & Feiertage: 13 - 21 Uhr</div> -->
+            <div class="vacation-title">
+              <span class="vacation-icon">🎄</span> Betriebsferien <span class="vacation-icon">🎆</span>
+            </div>
+            <div>
+              Wir haben vom 20.12.21 bis zum 03.01.22 geschlossen und wünschen euch schöne erholsame Feiertage und einen guten Rutsch ins neue Jahr!
+            </div>
             <div><br></div>
+            <div>Mo: GESCHLOSSEN</div>
             <div>Di - Fr: 12 - 14:30 Uhr, 17 - 22 Uhr</div>
             <div>Sa: 13 - 22 Uhr</div>
             <div>So: 13 - 21 Uhr</div>
@@ -63,10 +66,23 @@ export default {
 </script>
 
 <style lang="scss">
+.vacation-icon {
+  font-size: 2rem;
+}
+
+.vacation-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  text-transform: uppercase;
+  color: $primary;
+}
+
 .openingtimes {
   color: white;
-  font-weight: 1000;
   letter-spacing: -1px;
+  max-width: 500px;
 }
 .darken {
   opacity: 0.3;
