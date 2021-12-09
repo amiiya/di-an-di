@@ -42,7 +42,7 @@
             Bitte beachtet folgende Hinweise:
           </div>
           <div class="q-py-md">
-            - Die letzte Bestellung wird um 20:45 entgegengenommen<br>
+            - Die letzte Bestellung wird eine halbe Stunde vor Schluss aufgenommen<br>
             - Lieferservice Mindestbestellwert 20€<br>
             - Wir liefern im Umkreis von 3 km<br>
           </div>
