@@ -1,5 +1,5 @@
 <template>
- <q-parallax :height="$q.screen.height <  650 ? 650 : $q.screen.height" :speed="0.6">
+ <q-parallax :height="$q.screen.height <  1000 ? 1000 : $q.screen.height" :speed="0.6">
       <template v-slot:media>
         <img src="statics/map_hq.jpg" class="darken">
       </template>
@@ -29,18 +29,19 @@
             <div>Sa: 13 - 22 Uhr</div>
             <div>So: 13 - 21 Uhr</div>
           </div>
-          <!-- <div class="q-pt-md max-width">
-            Aufgrund der Maßnahmen zur Eindämmung der Corona-Infektion, werden wir ab Dienstag den 03.11.2020 nur noch außer Haus verkaufen.
-            Abends werden wir einen Lieferservice einrichten. Bestellungen nehmen wir unter 040 / 75 68 44 51 entgegen.
+          <div class="q-py-md">
+            Reservierungen und Bestellungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden
+          </div>
+          <div class="q-pt-md max-width">
+            <b class="openingtimes">+ + + + + Aktuelle Informationen + + + + +</b>
+            <br>
+            Aufgrund der derzeitigen Lage haben wir wieder einen <u>Lieferservice</u> für euch einrichtet. Wir nehmen eure Bestellung gerne telefonisch auf!
+            Bitte beachtet folgende Hinweise:
           </div>
           <div class="q-py-md">
-            Hinweise:<br>
-            - Die letzte Bestellung wird um 20:45 entgegengenommen.<br>
-            - Lieferservice Mindestbestellwert 20€.<br>
-            - Wir liefern im Umkreis von 3 km.<br>
-          </div> -->
-          <div class="q-py-md">
-            Reservierungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden
+            - Die letzte Bestellung wird um 20:45 entgegengenommen<br>
+            - Lieferservice Mindestbestellwert 20€<br>
+            - Wir liefern im Umkreis von 3 km<br>
           </div>
           <div class="q-gutter-md q-py-md">
             <q-btn color="primary" icon="far fa-file-pdf" label="Speisekarte" href="statics/Speisekarte.pdf" type="a" target="_blank" :dense="$q.screen.lt.sm" />
