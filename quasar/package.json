@@ -19,12 +19,12 @@
     "vue-video-player": "^5.0.2"
   },
   "devDependencies": {
-    "@quasar/app": "^3.2.6",
+    "@quasar/app": "^1.5.1",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^8.6.0",
+    "eslint": "^5.10.0",
     "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^8.3.0"
+    "eslint-plugin-vue": "^5.0.0"
   },
   "engines": {
     "node": ">= 8.9.0",
