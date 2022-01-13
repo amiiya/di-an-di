@@ -20,13 +20,13 @@
             Bachstraße 145, 22083 Hamburg
           </div>
           <div class="openingtimes">
-            <!-- <div class="vacation-title">
+            <div class="vacation-title">
               <span class="vacation-icon">🎄</span> Betriebsferien <span class="vacation-icon">🎆</span>
             </div>
             <div>
               Wir haben vom 20.12.21 bis zum 03.01.22 geschlossen und wünschen euch schöne erholsame Feiertage und einen guten Rutsch ins neue Jahr!
             </div>
-            <div><br></div> -->
+            <div><br></div>
             <div>Mo: GESCHLOSSEN</div>
             <div>Di - Fr: 12 - 14:30 Uhr, 17 - 22 Uhr</div>
             <div>Sa: 13 - 22 Uhr</div>
