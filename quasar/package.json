@@ -15,7 +15,6 @@
     "@quasar/extras": "^1.4.2",
     "moment": "^2.24.0",
     "quasar": "^1.7.3",
-    "sass": "^1.44.0",
     "vue-video-player": "^5.0.2"
   },
   "devDependencies": {
