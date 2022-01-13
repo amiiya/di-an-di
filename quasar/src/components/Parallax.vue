@@ -1,5 +1,5 @@
 <template>
- <q-parallax :height="$q.screen.height <  1000 ? 1000 : $q.screen.height" :speed="0.6">
+ <q-parallax :height="$q.screen.height <  800 ? 800 : $q.screen.height" :speed="0.6">
       <template v-slot:media>
         <img src="statics/map_hq.jpg" class="darken">
       </template>
@@ -20,13 +20,13 @@
             Bachstraße 145, 22083 Hamburg
           </div>
           <div class="openingtimes">
-            <div class="vacation-title">
+            <!-- <div class="vacation-title">
               <span class="vacation-icon">🎄</span> Betriebsferien <span class="vacation-icon">🎆</span>
             </div>
             <div>
               Wir haben vom 20.12.21 bis zum 03.01.22 geschlossen und wünschen euch schöne erholsame Feiertage und einen guten Rutsch ins neue Jahr!
             </div>
-            <div><br></div>
+            <div><br></div> -->
             <div>Mo: GESCHLOSSEN</div>
             <div>Di - Fr: 12 - 14:30 Uhr, 17 - 22 Uhr</div>
             <div>Sa: 13 - 22 Uhr</div>
@@ -35,7 +35,7 @@
           <div class="q-py-md">
             Reservierungen und Bestellungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden
           </div>
-          <div class="q-pt-md max-width">
+          <!-- <div class="q-pt-md max-width">
             <b class="openingtimes">+ + + + + Aktuelle Informationen + + + + +</b>
             <br>
             Aufgrund der derzeitigen Lage haben wir wieder einen <u>Lieferservice</u> für euch einrichtet. Wir nehmen eure Bestellung gerne telefonisch auf!
@@ -45,7 +45,7 @@
             - Die letzte Bestellung wird um 20:45 entgegengenommen<br>
             - Lieferservice Mindestbestellwert 20€<br>
             - Wir liefern im Umkreis von 3 km<br>
-          </div>
+          </div> -->
           <div class="q-gutter-md q-py-md">
             <q-btn color="primary" icon="far fa-file-pdf" label="Speisekarte" href="statics/Speisekarte.pdf" type="a" target="_blank" :dense="$q.screen.lt.sm" />
             <q-btn color="grey-14" icon="fas fa-phone-alt" label="Anrufen" href="tel:04075684451" type="a" target="_blank" :dense="$q.screen.lt.sm" />
