@@ -83,6 +83,7 @@ export default {
   letter-spacing: -1px;
   max-width: 500px;
 }
+
 .darken {
   opacity: 0.3;
 }
