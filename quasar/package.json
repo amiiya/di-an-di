@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.4.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "quasar": "^1.7.3",
     "vue-video-player": "^5.0.2"
   },
