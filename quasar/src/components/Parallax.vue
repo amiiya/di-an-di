@@ -33,7 +33,7 @@
             <div>So: 13 - 21 Uhr</div>
           </div>
           <div class="q-py-md">
-            Reservierungen und Bestellungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> gemacht werden
+            Reservierungen und Bestellungen können über <a href="tel:04075684451" class="text-primary">040 75684451</a> oder über unser Reservierungstool gemacht werden.
           </div>
           <!-- <div class="q-pt-md max-width">
             <b class="openingtimes">+ + + + + Aktuelle Informationen + + + + +</b>
@@ -49,6 +49,7 @@
           <div class="q-gutter-md q-py-md">
             <q-btn color="primary" icon="far fa-file-pdf" label="Speisekarte" href="statics/Speisekarte.pdf" type="a" target="_blank" :dense="$q.screen.lt.sm" />
             <q-btn color="grey-14" icon="fas fa-phone-alt" label="Anrufen" href="tel:04075684451" type="a" target="_blank" :dense="$q.screen.lt.sm" />
+            <q-btn color="grey-14" icon="fas fa-calendar-check" label="Reservieren" href="https://reservation.dish.co/landingPage/hydra-73c43178-b93b-4333-8909-43f14ed1e63a" type="a" target="_blank" :dense="$q.screen.lt.sm" />
           </div>
         </div>
       </template>
