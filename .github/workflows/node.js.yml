@@ -1,8 +1,9 @@
-name: Node.js CI
+name: Node.js CI & Deploy
 
 on:
   push:
-    branches: ["dev"]
+    branches:
+      - dev
 
 jobs:
   build:
@@ -22,3 +23,10 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/spa
