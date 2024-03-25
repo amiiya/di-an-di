@@ -11,12 +11,7 @@ Notify.setDefaults({
 })
 
 // set date month -1 (january = 0)
-var untilDate1 = new Date(2023, 10, 14)
+var untilDate1 = new Date(2024, 3, 2)
 if (new Date(untilDate1.toDateString()) > new Date(new Date().toDateString())) {
-  Notify.create(`Wir haben am Freitag dem 3. November ausnahmsweise geschlossen! Tut uns Leid für die Unannehmlichkeiten.`)
-}
-
-var untilDate2 = new Date(2024, 0, 13)
-if (new Date(untilDate2.toDateString()) > new Date(new Date().toDateString())) {
-  Notify.create(`Wir nehmen eine Winterpause vom 4. Dezember bis zum 12. Januar. Wir freuen uns auf euren Besuch im neuen Jahr. Wir wünschen guten Rutsch! ✨`)
+  Notify.create(`Wir haben vom 29. März bis zum 01. April Osterferien. Wir wünschen frohe Ostern und erholsame Feiertage! 🐣🐰`)
 }
